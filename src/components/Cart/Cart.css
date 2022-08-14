@@ -1,0 +1,21 @@
+.cart-block {
+  font-size: 1.5rem;
+  padding: 0.6rem;
+  border-radius: 100%;
+  transition: 0.75s ease;
+  color: black;
+}
+
+.cart-block:hover {
+  cursor: pointer;
+}
+
+.cart-icon {
+  width: 1.7rem;
+}
+
+@media (max-width: 400px) {
+  .cart-icon {
+    font-size: 1.3rem;
+  }
+}
